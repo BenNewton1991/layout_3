@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1em;
+}
+
+header {
+    width: 100%;
+    background-color: #444;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+nav {
+    width: 100%;
+    background-color: #555;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 600px;
+    background-color: #999;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.box_left {
+    height: 95%;
+    width: 24%;
+    background-color: #444;
+    padding: 20px;
+}
+
+#screen {
+    width: 100%;
+    height: 50px;
+    background-color: #CCC;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#buttons {
+    width: 100%;
+    height: 300px; 
+    background-color: #CCC;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#numbers {
+    width: 74%; 
+    height: 100%; 
+    background-color: #999;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#operations {
+    width: 24%;
+    height: 100%;
+    background-color: #999;
+    border-radius: 5px;
+}
+
+.button {
+    width: 33%;
+    height: 10%; 
+    border: 1px solid black; 
+    border-radius: 5px;
+    background-color: #444;
+    line-height: 100%;
+    text-align: center;
+    padding-top: 5px;
+    margin: 5px;
+}
+
+
+
+
+
+.box_center {
+    height: 95%;
+    width: 49%;
+    background-color: #444;
+}
+
+.box_right {
+    height: 95%;
+    width: 24%;
+    background-color: #444;
+}
+
+footer {
+    width: 100%;
+    background-color: #444;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+}
