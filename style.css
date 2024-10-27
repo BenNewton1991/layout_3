@@ -59,6 +59,10 @@ section {
     border: 1px solid black;
     margin-bottom: 10px;
     border-radius: 10px;
+    line-height: 50px;
+    padding-right: 5px;
+    text-align: end;
+    color: black;
 }
 
 #buttons {
@@ -79,6 +83,7 @@ section {
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row-reverse;
 }
 
 #operations {
@@ -89,7 +94,7 @@ section {
 }
 
 .button {
-    width: 33%;
+    width: 20%;
     height: 10%; 
     border: 1px solid black; 
     border-radius: 5px;
