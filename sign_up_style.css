@@ -1,5 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
 .box_center {
     display: flex;
+    width: 900px; 
 
 }
 
@@ -47,7 +54,7 @@
 
 .form_div {
     height: 45%;
-    width: 100%;
+    width: 400px;
     background-color: #999;
     border-radius: 15px;
     padding: 2%;
@@ -73,6 +80,8 @@
 
 .form_box > * {
     margin-top: 2px;
+    display: flex;
+    flex-wrap: wrap;
     margin-bottom: 2px;
 }
 
@@ -84,11 +93,15 @@ input {
 }
 
 .form_left {
-    width: 50%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
 .form_right {
-    width: 50%;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
 }
 .sign_up_button {
     width: 200px; 
